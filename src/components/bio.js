@@ -16,7 +16,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 125, height: 125) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -28,7 +28,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            linkedin
           }
         }
       }
@@ -49,7 +49,7 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
-          minWidth: 50,
+        
           borderRadius: `100%`,
         }}
         imgStyle={{
@@ -57,11 +57,16 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+      <br></br>
+        {author.summary}
+        <br></br>
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        Follow me on {` `}
+        <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+          LinkedIn
         </a>
+        {` | `}
+        <a href={'https://medium.com/@srinivasgunti987'}>Medium</a>
       </p>
     </div>
   )
