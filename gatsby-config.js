@@ -10,7 +10,6 @@ module.exports = {
     social: {
       linkedin: `srinivas-gunti-38564b82/`,
     },
-    pathPrefix: "/srinivas-blog",
   },
   plugins: [
     {
