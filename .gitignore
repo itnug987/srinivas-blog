@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+#Sitemap files
+sitemap.xml
+google562e9ad2a0a93cd3
