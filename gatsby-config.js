@@ -3,7 +3,7 @@ module.exports = {
     title: `Srinivas's Blog`,
     author: {
       name: `Srinivas Gunti`,
-      summary: `Software Developer | Traveller | Alumni iB hubs Startup School'18`,
+      summary: `Software Engineer | Love to solve problems and build products | Avid Traveler`,
     },
     description: `Personal blog where I write about my experiences of life`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
